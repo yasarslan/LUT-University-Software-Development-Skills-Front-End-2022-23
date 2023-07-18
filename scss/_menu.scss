@@ -31,9 +31,16 @@
 
             //line 2- hide
 
+            &:nth-child(2) {
+                opacity: 0;
+            }
 
 
             //line3- rotate
+
+            &:nth-child(3) {
+                transform: rotate(-45deg) translate(7px,-6px);
+            }
         }
     }
 
